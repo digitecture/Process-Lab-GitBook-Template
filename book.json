@@ -1,0 +1,38 @@
+{ 
+  "gitbook": "2.6.x",
+  "plugins": ["quizzes"],
+  "plugins": ["exercises"],
+  "plugins": ["prism", "-highlight"],
+  "plugins" : [ "back-to-top-button" ],
+  "pluginsConfig": {
+        "toolbar": {
+            "buttons":
+              [
+                {            
+                "label": "Download",
+                "icon": "fa fa-file-pdf-o fa-lg-5x",
+                "url": "https://www.facebook.com/sharer/sharer.php?s=100&p[url]={{url}}"
+                },                {
+                  "label": "Share link on Facebook",
+                  "icon": "fa fa-facebook",
+                  "url": "https://www.facebook.com/sharer/sharer.php?s=100&p[url]={{url}}"
+                },
+                {
+                    "label": "Share page title and link on Twitter",
+                    "icon": "fa fa-twitter",
+                    "url": "https://twitter.com/home?status={{title}}%20{{url}}"
+                },
+                {
+                    "label": "Visit the Design Space Construction Site",
+                    "icon": "fa fa-sitemap-3x",
+                    "url": "http://designspaceconstruction.org/"
+                },
+                  {
+                    "label": "Design Space Construction GitHub Site",
+                    "icon": "fa fa-github-3x",
+                    "url": "https://git.gitbook.com/bernalm/design-space-construction.git"
+                }
+            ]
+        }
+    }
+}

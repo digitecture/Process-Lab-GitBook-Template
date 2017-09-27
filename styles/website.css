@@ -1,0 +1,177 @@
+/* CSS for website */
+@import 'https://fonts.googleapis.com/css?family=Fjalla+One';
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+@import 'https://fonts.googleapis.com/css?family=Oswald:300,400,700';
+@import 'https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700';
+
+/*
+	Main
+    Fjalla One for H1
+    Carrois Gothic for Body and Everything Else
+*/
+
+ body {
+    text-rendering: optimizeLegibility;
+    font-smoothing: antialiased;
+    @import 'https://fonts.googleapis.com/css?family=Carrois+Gothic';
+    font-size: 14px;
+    color: #323232;
+  
+}
+
+h1{font-family: 'Fjalla One', sans-serif;letter-spacing: 0.25px;}
+
+h2{font-family: 'Roboto Condensed', sans-serif;}
+
+h3{font-family: 'Roboto Condensed', sans-serif;}
+
+h4{font-family: 'Roboto Condensed', sans-serif;}
+
+h5,h6{font-family: 'Roboto Condensed', sans-serif;font-style: italic;}
+
+.book .book-body .page-wrapper .page-inner section.normal h1{font-size: 36px;color:#00ccff;font-weight: 500;}, .book .book-body .page-wrapper .page-inner section.normal h2{font-size: 24px;font-weight: 50;}, .book .book-body .page-wrapper .page-inner section.normal h3{font-size: 18px;font-weight: 50;}, .book .book-body .page-wrapper .page-inner section.normal h4{font-size: 12px;font-weight: 50;}, .book .book-body .page-wrapper .page-inner section.normal h5{font-weight: 50;font-size: 10px;}, .book .book-body .page-wrapper .page-inner section.normal h6{
+    font-weight: 400;
+    font-size: 18px;
+    margin: 400px 0 20px 0;
+    padding: 0;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal h2 {
+    padding-bottom: 15px;
+    font-size: 36px;
+    line-height: 1.225;
+    border-bottom: 1px solid #ddd;
+    font-family: 'Roboto Condensed';
+    margin-bottom: 40px;
+  /*font-weight: 100;*/
+}
+
+
+
+
+.book .book-body .page-wrapper .page-inner section.normal strong {
+    /*font-weight: 600;*/
+}
+
+
+/*
+	Main Nav
+*/
+.book .book-header{
+	font-family: 'Roboto Condensed', sans-serif;
+    overflow: visible;
+    height: 50px;
+    padding: 0 8px;
+    z-index: 2;
+    font-size: .85em;
+    color: #ffffff;
+    background: #ffffff;   
+}
+
+.book .book-header h1{
+	opacity: 1;
+}
+
+.book .book-header h1 a{
+	color: transparent;
+	opacity: 1;
+	background-image: url('../images/icons/pwlogo_small.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.book .book-header h1 a:hover{
+	color: transparent;
+}
+
+.book .book-header .btn {
+    display: block;
+    height: 50px;
+    padding: 0 15px;
+    border-bottom: 0;
+    color: #ccc;
+    text-transform: uppercase;
+    line-height: 50px;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+    position: relative;
+    font-size: 20px;
+}
+
+.book .book-header .btn:hover {
+    position: relative;
+    text-decoration: none;
+    color: #00bdec;
+    background: 0
+}
+
+/*
+.book .book-header #font-settings-wrapper,
+.book .book-header .btn[aria-label="Share"]{
+	display: none;
+}
+*/
+
+.book .book-summary .book-search{
+	background-color: #f1f1f1;
+}
+
+/*
+	Sidebar Left
+*/
+.book .book-summary{
+	border-right: 0;
+}
+
+.book .book-summary ul.summary li a,
+.book .book-summary ul.summary li span {
+    display: block;
+    padding: 10px 15px;
+    border-bottom: 0;
+    color: #384b4d;
+    background: transparent;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    font-family: 'Fjalla One', serif;
+    font-size: 13px;
+
+    outline:none;
+}
+
+.book .book-summary ul.summary li.active>a, .book .book-summary ul.summary li a:hover {
+    color: #00ccff;
+    background: transparent;
+    text-decoration: none;
+}
+
+
+/*
+	Inner Content
+*/
+.book .book-body .page-wrapper .page-inner section.normal{
+padding: 60px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
